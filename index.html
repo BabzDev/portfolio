@@ -4,52 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.css">
-    <style>
-        .br-w-05{
-            border-width: 3px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <style>
+
+    </style>
 </head>
-<body>
-    <div class="container pt-5 pb-5">
-        <div class="card bg-light mb-3 pt-5 border-warning pb-5 br-w-05">
+<body class="bg-color2">
+    <div class="header">
+        <a href = "mailto: matt@babz.dev"><i class="fas fa-envelope fa-2x icons"></i></a> <a href="https://github.com/BabzDev/"><i class="fab fa-github fa-2x icons"></i></a> <a href="https://cv.babz.dev/"><i class="fas fa-file-alt fa-2x icons"></i></a>
+    </div>
+    <div class="container pt-5 pb-5" style="padding-top:6rem !important;">
+        <div class="card bg-light mb-3 pt-5 border-warning pb-5 br-w-05 bg-color1">
             <div class="card-body">
                 <div class="text-container w-75 mr-auto ml-auto">
-                    <h1 class="display-2 text-center">Matt Babczynski</h1>
-                    <h3 class="text-secondary text-right"><span class="text-warning">...Wannabe developer</span></h3>
+                    <h1 class="display-2 text-center title-text">Matt Babczynski</h1>
                 </div>
             </div>
           </div>
-          <div class="card bg-dark text-secondary border-warning mb-3 br-w-05">
+          <div class="card bg-dark text-secondary border-warning mb-3 br-w-05 bg-color2">
             <div class="card-body">
-                <h4 class="card-title">About me</h4>
+                <h4 class="card-title title-color title-text">About me</h4>
                 <hr>
-                <p class="card-text">Employment:<br>
-                    <span class="font-italic">Work for an Insurance company, within the IT department as a Ratings Engine Analyst.</span></p>
-                <p class="card-text">Interests:<br>
-                    <span class="font-italic">Full time raspberry pi fanatic. Soldiering, home automation and electronics.</span></p>
-                <p class="card-text">Other Activities:<br>
-                    <span class="font-italic">In spare time, I push over-indented lines of writing to my github. Occasionally YouTube video.</span></p>
+                <p class="card-text">Ratings engine analyst by day, tinkerer by night. </p>
+                <p class="card-text">Full-time Raspberry Pi Fanatic. Soldiering, home automation and electronics. A massive supporter of open source tools like Nextcloud. If it is possible to have it running in a Docker container, I will probably do it at some point.</p>
+                <p class="card-text">Recently acquired an Unraid license. Currently learning more about networking, virtualisation and self-hosting. Say bye, bye to AWS and hello to unlimited free VMs! <span class="font-italic">I joke (sort of)! We love you Cloud computing, but from now I will keep my data at home.</span> Did I mention I am a privacy fanatic too?</p> 
+                <p class="card-text">Fan of blockchain technology and cryptocurrencies - I build crypto mining rigs in my spare time.</p>
+                <p class="card-text">I also enjoy experimental cooking, short trips away and exploring on my electric bike (future upgrade incoming).</p>
+                <p class="card-text">For more information about me, head to my <a href="https://cv.babz.dev/">CV page</a> or visit my <a href="https://github.com/BabzDev">GitHub page.</a></p>
             </div>
           </div>
-          <div class="card bg-secondary border-warning mb-3 br-w-05">
+          <div class="card bg-secondary border-warning mb-3 br-w-05 bg-color1">
             <div class="card-body">
-                <h4 class="card-title">Projects</h4>
+                <h4 class="card-title title-text">Projects</h4>
                 <hr>
-                <p class="card-text"><a href="https://babzdev.github.io/js-weather-app">Weather App (JS)</a><br>
+                <p class="card-text"><a href="https://rentv1.babz.dev/">BabzRent</a> - .NET Core (3.1) MVC Application - <span class="font-italic"><a href="https://github.com/BabzDev/BabzRent">(Repository) <i class="fab fa-github"></i></a> </span><br>
+                    <span class="font-italic">A property portfolio management tool used to help with the rental process. (Currently under progress)</span></p>
+                <p class="card-text">Pi Alarm - Python Console App - <span class="font-italic"><a href="https://github.com/BabzDev/pi-alarm">(Repository) <i class="fab fa-github"></i></a> </span><br>
+                    <span class="font-italic">Prototype Alarm that makes a call once the alarm is triggered using a GSM Module and a Raspberry PI.</span></p>
+                <p class="card-text"><a href="https://babzdev.github.io/js-weather-app">Weather App</a> - Javascript Web Application - <span class="font-italic"><a href="https://github.com/BabzDev/js-weather-app">(Repository) <i class="fab fa-github"></i></a> </span><br>
                     <span class="font-italic">Simple weather app developed in JavaScript.</span></p>
-                <p class="card-text"><a href="https://babzdev.github.io/js-task-list">Task List</a><br>
+                <p class="card-text"><a href="https://babzdev.github.io/js-task-list">Task List</a> - Javascript Web Application - <span class="font-italic"><a href="https://github.com/BabzDev/js-task-list">(Repository) <i class="fab fa-github"></i></a> <br>
                     <span class="font-italic">Simple Task list with persisting data to local storage.</span></p>
-                <p class="card-text"><a href="https://babzdev.github.io/js-loan-calculator/">Loan Calculator</a><br>
-                    <span class="font-italic">Can work out the monthly instalments based on Loan amount, interest and number of years to repay.</span></p>
-                <p class="card-text"><a href="https://babzdev.github.io/js-github-finder/">Github Finder</a><br>
+                <p class="card-text"><a href="https://babzdev.github.io/js-loan-calculator/">Loan Calculator</a> - Javascript Web Application - <span class="font-italic"><a href="https://github.com/BabzDev/js-loan-calculator">(Repository) <i class="fab fa-github"></i></a> <br>
+                    <span class="font-italic">Can work out the monthly instalments based on loan amount, interest and number of years to repay.</span></p>
+                <p class="card-text"><a href="https://babzdev.github.io/js-github-finder/">Github Finder</a> - Javascript Web Application - <span class="font-italic"><a href="https://github.com/BabzDev/js-github-finder">(Repository) <i class="fab fa-github"></i></a> <br>
                     <span class="font-italic">Finds user profiles and their repositories in present time.</span></p>
             </div>
-          </div>
+        </div>
     </div>
-
-
-    
+    <div class="footer">
+        <p class="footer-text text-container text-center card-body">Designed and Created by Matt Babczynski &copy; 2021</p>
+    </div>
 </body>
 </html>
+
