@@ -104,3 +104,13 @@ a:hover{
         font-size: 3.5rem !important;
     }
 }
+@media screen and (max-width: 475px) {
+    .heading {
+        font-size: 2.8rem !important;
+    }
+}
+@media screen and (max-width: 395px) {
+    .heading {
+        font-size: 2.4rem !important;
+    }
+}
