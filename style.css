@@ -93,3 +93,14 @@ a:hover{
 .txt-color5{
     color: var(--color5) !important;
 }
+
+@media screen and (max-width: 767px) {
+    .heading {
+        font-size: 4rem !important;
+    }
+}
+@media screen and (max-width: 548px) {
+    .heading {
+        font-size: 3.5rem !important;
+    }
+}
